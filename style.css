@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.left {
+    background-image: url(bgmain.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+}
+
+.right{
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(to right, black,rgb(1, 1, 66) );
+    background-size: cover;
+}
+
+.btn{
+    margin-top: 55vh;
+    margin-left: 30vh;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid;
+    transition: 0.5s;
+}
+
+p{
+    color: rgb(2, 169, 141);
+    margin-top: 5px;
+    margin-left: 25vh;
+    font-size: 40px;
+    font-family: martel;
+}
+
+#mantra {
+    min-height: 100px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+    overflow: hidden; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px; 
+}
+
+
+.btn:hover{
+    scale: 1.1;
+    border: 2px rgb(38, 124, 237) solid;
+    background-color: blue;
+}
